@@ -38,11 +38,10 @@ cd potted-plant-detection
 pip install opencv-python
 ```
 
-4. Download the YOLOv3-tiny weights and configuration files from the official website or another trusted source and place them in the repository directory. Make sure the files are named as follows:
+4. Download the YOLOv3-tiny weights file by the using the command:
 
 ```
-yolov3-tiny.weights
-yolov3-tiny.cfg
+wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 
 ## Usage
